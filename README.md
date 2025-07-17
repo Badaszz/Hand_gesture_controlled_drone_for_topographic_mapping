@@ -1,0 +1,2 @@
+# Hand_gesture_controlled_drone_for_topographic_mapping
+This repository contains all the software resources for my final year project (Implementation of hand gesture control in a drone for topographic mapping with photogrammetry). The project seels to implement hand gesture commands for drone control and also enable mapping with an Onboard ESP32 cam, the drone and camera receive commands from a laptop.
