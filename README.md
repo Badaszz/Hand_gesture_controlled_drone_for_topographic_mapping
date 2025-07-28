@@ -2,7 +2,7 @@
 
 This project implements a gesture-controlled drone system capable of performing automated topographic mapping. Using hand landmarks detected via computer vision, the drone is guided through commands like takeoff, land, direction control, yaw, and a custom **RTH-triggered photogrammetry mode**.
 
-It supports both **MSP** (MultiWii Serial Protocol) and **MAVLink** implementations.
+It supports both **MSP** (MultiWii Serial Protocol) and **MAVLink** implementations. It also has a module for dronekit implementation, but it doesnt have an app for it, that would come later
 
 ---
 
@@ -19,7 +19,7 @@ gesture-drone-mapper/
 ├── esp32cam/                  # Firmware (.ino) + control module for ESP32-CAM
 ├── drone_control/            # Drone control modules (MSP & MAVLink)
 ├── hand_gesture/             # Gesture detection & GUI apps
-├── gesture_commands/         # Key mapping and gesture definitions
+├── gesture_commands/         # gesture definitions
 ├── gifs/                     # Demo GIFs for simulation & real flight
 ├── docs/                     # Architecture images, docs, future assets
 ```
@@ -91,13 +91,6 @@ Select:
 - Onefile + Window Based
 - Add any icons or resources as needed
 
----
-
-## 🎞️ Demo
-
-| Simulation View | Real Flight |
-|------------------|-------------|
-| ![](gifs/sim_gesture.gif) | ![](gifs/real_gesture.gif) |
 
 ---
 
@@ -126,16 +119,16 @@ When the system detects the `RTH` gesture:
 
 **Yusuf Solomon**  
 🧠 Mechatronics | 🤖 Robotics | 📡 IoT | 🛠️ Embedded Systems  
-🔗 [LinkedIn](https://www.linkedin.com/in/your-profile) (optional)
+🔗 [LinkedIn](www.linkedin.com/in/yusuf-solomon)
 
 ---
 
 ## 📌 Future Plans
 
 - Add voice control alongside gesture interface  
-- Port to Android using Kivy  
+- Port to Android   
 - Live video streaming from ESP32-CAM into the app  
-- Improve gesture stability with Kalman Filtering  
+
 
 ---
 
