@@ -119,7 +119,7 @@ When the system detects the `RTH` gesture:
 
 **Yusuf Solomon**  
 🧠 Mechatronics | 🤖 Robotics | 📡 IoT | 🛠️ Embedded Systems  
-🔗 [LinkedIn](www.linkedin.com/in/yusuf-solomon)
+🔗 [LinkedIn]([www.linkedin.com/in/yusuf-solomon](https://www.linkedin.com/in/yusuf-solomon/))
 
 ---
 
