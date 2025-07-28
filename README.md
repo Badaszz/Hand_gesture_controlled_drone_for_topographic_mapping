@@ -94,16 +94,6 @@ Select:
 
 ---
 
-## 📸 Photogrammetry Mode
-
-When the system detects the `RTH` gesture:
-- The drone switches to **Return-To-Home**
-- The ESP32-CAM is triggered to start image capture
-- A grid-mapping flight is performed (in simulation or real drone)
-- Images are later processed using photogrammetry tools like OpenDroneMap or WebODM
-
----
-
 ## 📜 Acknowledgements
 
 - MSP-over-WiFi bridge adapted from:  
